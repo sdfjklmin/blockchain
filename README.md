@@ -13,12 +13,18 @@
 	Solidity语言介绍:http://www.tryblockchain.org
 	Solidity中文文档:http://solidity-cn.readthedocs.io/zh/develop/index.html
 ### 测试命令
-<<<<<<< Updated upstream
  	geth --datadir=e:/object/block/rinkeby --rinkeby（测试网络名称不加默认全网） --cache=128（缓存大小）
 
 ### 其他应用
 	IOTA(物联网),IPFS(星际文件传输系统) 
+### 钱包地址  (https://ethfans.org/posts/584)
 
+	1.Mist 				(http://ethfans.org/wikis/Mist-Mirror)
+	2.Parity 			(http://ethfans.org/wikis/Ethcore-Parity-Mirror)
+	3.MyEtherWallet 	(https://www.myetherwallet.com)
+	4.imToken 			(https://token.im/)
+	5.MetaMask 			(https://metamask.io/)
+	6.Legder 			(硬件钱包)
  geth --datadir=e:/object/block/rinkeby --rinkeby（测试网络名称不加默认全网） --cache=128（缓存大小）
  geth attach ipc:\\.\pipe\geth.ipc [相对路径|上条路径的输出地址]  #本地ipc进程通讯连接到本地[进入命令行模式]
 
@@ -54,5 +60,5 @@
   windows:
   	npm install --global --production windows-build-tools #默认需要扩展按照
   	#待测试
-  	npm install web3@1.0.0-beta.34
-  	cmd run as Administrator
+  	npm install web3@1.0.0-beta.34 
+  	cmd run as Administrator 
