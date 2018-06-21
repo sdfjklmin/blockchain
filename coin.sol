@@ -4,7 +4,7 @@ pragma solidity ^0.4.18 ;
 contract Coin {
 	// 地址类型
 	address public minter ;
-	// 数组型金额 ?? 钩子
+	// 数组型 (地址=>金额)
 	mapping (address => uint ) public balances ;
 	// 事件 , 记录发送的日志
 	event Send(address from, address to, uint amount);
